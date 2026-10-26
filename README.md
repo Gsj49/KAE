@@ -29,14 +29,15 @@ License: Apache-2.0. See `LICENSE` and `NOTICE`.
    `pip install -e . --no-deps`. The reference system is Isambard with Slurm,
    NVIDIA GH200 GPUs and Linux/aarch64.
 2. Place prepared data under [data/](data/README.md); shared defaults are in
-   [data/paths.json](data/paths.json). Datasets, response pools and model weights
-   are distributed separately from the code.
+   [data/paths.json](data/paths.json). Compact reward samples for value MSE
+   are included. Training/test datasets, full response pools and model weights
+   are distributed separately.
 3. Use [training](train_scripts/README.md),
    [mathematics evaluation](test_scripts/README.md),
    [code evaluation](test_scripts/code/README.md), or
    [estimation experiments](experiments/README.md).
    The Python launchers print their commands unless `--execute` is supplied.
-   The MC-error and computing-cost table scripts run directly on CPU with
+   Value MSE, MC-error and computing-cost scripts run directly on CPU with
    the included numeric inputs.
 
 The method names are `grpo`, `drgrpo`, `gpg`, `js`, `kalman`, `ema`,
@@ -44,6 +45,21 @@ The method names are `grpo`, `drgrpo`, `gpg`, `js`, `kalman`, `ema`,
 experiments use training seeds 1, 42 and 420.
 Inside VERL, `kae` uses the `grpo_kae_tri` estimator and `ema` uses
 `grpo_kae_exp`; `tri` and `exp` denote triangular and exponential kernels.
+
+## Run value MSE on CPU
+
+From the repository root, install the analysis dependencies and run:
+
+```bash
+python -m pip install numpy pandas pyarrow matplotlib
+python experiments/value_mse/run.py --data-name math --target-step 10 \
+  --data-root data/value_mse --oracle-sample-tag '' --n-bootstrap 0 \
+  --output-dir results/value_mse/math_step10
+```
+
+No GPU, model checkpoint or VERL installation is needed. The included reward
+samples cover GSM8K and MATH at steps 10, 90 and 170. See
+[the six-run commands](experiments/value_mse/REWARD_ASSETS.md).
 
 ## KAE implementation
 

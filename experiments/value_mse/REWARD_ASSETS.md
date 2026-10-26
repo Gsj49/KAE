@@ -1,7 +1,8 @@
 # Saved rewards for CPU-only value-MSE calculation
 
-The export utility extracts prompt IDs and rewards from saved GSM8K and MATH
-response pools. Sample files are provided separately from the code.
+The repository includes prompt IDs and rewards from the saved GSM8K and MATH
+response pools under `data/value_mse/<dataset>/`. The 30 files total about
+116 KiB and contain no prompt or response text.
 
 ## Reward files
 
@@ -11,24 +12,24 @@ response pools. Sample files are provided separately from the code.
 - `rewards` contains the original 128 float64 correctness rewards in their
   original order. List position is the completion index. Values are finite
   and in [0, 1].
-- `data/value_mse/manifest.json` records original and compact file sizes/SHA-256
-  and an ordered ID/reward digest. It also verifies matching prompt sets within
-  every five-step window.
+- Prompt IDs match within each five-step window.
 
 Reward files support value MSE and kernel sensitivity. Gradient MSE and
 score-norm calculations also require response text and checkpoints.
 
 ## CPU-only calculation
 
-After supplying an external reward export, install `numpy`, `pandas`, `pyarrow` and
-`matplotlib`. No PyTorch, VERL runtime, GPU or model checkpoint is needed.
+Run from the repository root. No PyTorch, VERL runtime, GPU or model checkpoint
+is needed.
 
 ```bash
+python -m pip install numpy pandas pyarrow matplotlib
+
 for dataset in gsm8k math; do
   for step in 10 90 170; do
     python experiments/value_mse/run.py \
       --data-name "$dataset" --target-step "$step" \
-      --steps-glob "/path/to/rewards/$dataset/${dataset}_generation_k10_step_*_batchTRACE.parquet" \
+      --steps-glob "data/value_mse/$dataset/${dataset}_generation_k10_step_*_batchTRACE.parquet" \
       --oracle-sample-tag '' --true-n 100 --eval-n 8 --history-n 8 \
       --history-window 4 --repeats 100 --kae-alpha 0.2 \
       --n-bootstrap 0 --seed 1234 \

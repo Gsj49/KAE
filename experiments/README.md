@@ -9,10 +9,11 @@ at steps 6–10, 86–90 and 166–170. File names follow
 `<dataset>_generation_k10_step_<step>_batchTRACE.parquet`.
 The `k10` in these names describes prompt reuse, not the response group size.
 Hashes are listed in [../data/rollout_assets.json](../data/rollout_assets.json).
-The data and checkpoints are distributed separately from source code.
+Full response pools and checkpoints are distributed separately from source code.
 
-Value MSE and kernel sensitivity need only prompt IDs and rewards; see
-[reward export](value_mse/REWARD_ASSETS.md). Gradient MSE and score norms
+Value MSE and kernel sensitivity need only prompt IDs and rewards, included in
+`data/value_mse/`; see [reward files and commands](value_mse/REWARD_ASSETS.md).
+Gradient MSE and score norms
 also require response text and checkpoints.
 
 ## MC error and computing-cost tables
@@ -31,17 +32,20 @@ for the calculations and source measurements.
 
 ## Value MSE
 
-Runs on CPU, without loading a model:
+Runs on CPU using the included reward samples, without loading a model:
 
 ```bash
-python experiments/run.py --experiment value_mse --dataset math --step 10 \
-  --rollouts data/rollouts/math --output results/value_mse/math_step10 --execute
+python -m pip install numpy pandas pyarrow matplotlib
+python experiments/value_mse/run.py --data-name math --target-step 10 \
+  --data-root data/value_mse --oracle-sample-tag '' --n-bootstrap 0 \
+  --output-dir results/value_mse/math_step10
 ```
 
 The comparison includes GRPO, RF++, KAE, JS and Kalman. It uses a 100-response
 reference subset, groups of eight, four preceding steps, triangular alpha 0.2
 and 100 repetitions. Evaluation groups are sampled separately from the
-reference subset.
+reference subset. [Commands for both datasets and all three steps](value_mse/REWARD_ASSETS.md)
+use the same configuration.
 
 ## Kernel and bandwidth sensitivity
 

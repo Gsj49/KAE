@@ -18,11 +18,12 @@ Each dataset has 256 prompts per pool, 128 completions per prompt, and 15 pools:
 steps 6–10, 86–90 and 166–170. Prompt IDs, not row positions, match observations
 across steps. `data/rollout_assets.json` lists every filename, size
 and SHA-256. Both datasets together occupy 316,117,078 bytes (about 301.5 MiB).
-The optional lossless reward-only projection occupies about 116 KiB and is
+The included lossless reward-only projection occupies about 116 KiB and is
 sufficient for value MSE and kernel sensitivity, but not for gradient analysis.
 
-Sample files are separate inputs. Place them under `data/rollouts/<dataset>`
-or specify their location with `--rollouts`. See
+Reward samples are in `data/value_mse/<dataset>`. Full response pools are
+separate inputs: place them under `data/rollouts/<dataset>` or specify their
+location with `--rollouts`. See
 [reward files and CPU commands](../experiments/value_mse/REWARD_ASSETS.md).
 
 ## Checkpoints

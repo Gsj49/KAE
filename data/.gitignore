@@ -1,4 +1,4 @@
-# Keep the layout and configuration in Git; distribute data files separately.
+# Keep configuration and small numeric inputs in Git; distribute larger data separately.
 *
 !.gitignore
 !README.md
@@ -12,3 +12,7 @@
 !/mc_error/*.csv
 !/computing_cost/*.csv
 !/computing_cost/*.csv.gz
+
+# Compact reward samples for CPU value MSE.
+!/value_mse/gsm8k/*.parquet
+!/value_mse/math/*.parquet

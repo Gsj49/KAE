@@ -19,6 +19,8 @@ data/
   code/mbpp_plus/test.parquet
   rollouts/gsm8k/<saved rollout parquets>
   rollouts/math/<saved rollout parquets>
+  value_mse/gsm8k/<reward-only parquets>
+  value_mse/math/<reward-only parquets>
   traces/gsm8k_prompt_trace.jsonl
   traces/math_prompt_trace.jsonl
   mc_error/reference_counts.csv
@@ -37,6 +39,7 @@ data/
 | `test_scripts/evaluate_math.py` | Combined six-benchmark `valid.all.parquet` |
 | `test_scripts/code/generate.py` | HumanEval+ and MBPP+ under `code/` |
 | `experiments/run.py` | The dataset's saved pools under `rollouts/` |
+| `experiments/value_mse/run.py --data-root data/value_mse` | Included IDs and rewards under `value_mse/` |
 | `experiments/assumption6/generate_pool.py` | Training data and saved trace; writes into the dataset's rollout directory |
 
 Place the separately supplied training and test datasets in the layout above.
@@ -46,9 +49,11 @@ File sizes, row counts and SHA-256 values are recorded in the
 DAPO's source file `dapo-math/dapo-math-17k-rename.parquet` is stored here as
 `dapo/train.parquet` without changing its contents.
 
-Supply saved response pools separately with `--rollouts /path/to/pools`.
-The [reward export utility](../experiments/value_mse/REWARD_ASSETS.md) extracts
-IDs and rewards for CPU calculations. Prepare the one-shot data with
+Reward samples for CPU value MSE are included under `value_mse/`: 30 files,
+about 116 KiB, containing only prompt IDs and rewards. See
+[CPU calculation commands](../experiments/value_mse/REWARD_ASSETS.md).
+Full response pools are supplied separately with `--rollouts /path/to/pools`.
+Prepare the one-shot data with
 `prepare_oneshot.py --row <question_index>`.
 
 The small numeric inputs for the [MC-error](../experiments/mc_error/README.md)
@@ -102,11 +107,12 @@ python test_scripts/evaluate_math.py --trained-on dapo \
 python test_scripts/code/generate.py --model models/dapo_kae_seed1_step500 \
   --method kae --train-seed 1 --mode k16 --output results/code/kae_seed1
 
-python experiments/run.py --experiment value_mse --dataset math --step 10 \
-  --rollouts /path/to/saved/math/pools --output results/value_mse/math_step10
+python experiments/value_mse/run.py --data-name math --target-step 10 \
+  --data-root data/value_mse --oracle-sample-tag '' --n-bootstrap 0 \
+  --output-dir results/value_mse/math_step10
 ```
 
 The training/evaluation launchers and `experiments/run.py` preview by default;
-add `--execute` to run. The two table commands run immediately.
+add `--execute` to run. The value-MSE and two table commands run immediately.
 `prepare_oneshot.py` is a data-preparation command and writes the
 selected question's copies immediately, refusing an existing output file.
