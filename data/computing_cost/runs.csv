@@ -1,0 +1,7 @@
+method,gpus,steps,training_loop_seconds
+drgrpo,4,500,46689
+gpg,4,500,47647
+grpo,4,500,47918
+js,4,500,49811
+kae,4,500,46763
+kalman,4,500,47799

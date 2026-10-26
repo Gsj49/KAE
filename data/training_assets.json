@@ -1,0 +1,112 @@
+{
+  "description": "Prepared training and mathematics test files copied without content changes from the experiment data directory.",
+  "snapshot_date": "2026-10-25",
+  "source": "Existing experiment data directory on the u6wy cluster; data-relative source paths are recorded below.",
+  "assets": [
+    {
+      "source_relative": "dapo-math/dapo-math-17k-rename.parquet",
+      "path_under_data_root": "dapo/train.parquet",
+      "bytes": 6465775,
+      "rows": 17398,
+      "columns": [
+        "prompt",
+        "solution",
+        "data_source",
+        "source_prompt",
+        "ability",
+        "reward_model",
+        "extra_info"
+      ],
+      "sha256": "d2a5bff4a535366c8f2baab1358e0662ae5329b5fab51662ef03857909edec95"
+    },
+    {
+      "source_relative": "math/train_level_ge3.parquet",
+      "path_under_data_root": "math/train_level_ge3.parquet",
+      "bytes": 782234,
+      "rows": 5586,
+      "columns": [
+        "level",
+        "type",
+        "data_source",
+        "prompt",
+        "ability",
+        "reward_model",
+        "extra_info"
+      ],
+      "sha256": "506e35f755d12a7157e849498b688f1e2de184df1e8abbfbbd6025df7dbc4af7"
+    },
+    {
+      "source_relative": "math/test.parquet",
+      "path_under_data_root": "math/test.parquet",
+      "bytes": 606982,
+      "rows": 5000,
+      "columns": [
+        "level",
+        "type",
+        "data_source",
+        "prompt",
+        "ability",
+        "reward_model",
+        "extra_info"
+      ],
+      "sha256": "b761b16e40fbb304bad79ad163198a2ce09d2866788dfcf5cbab715b472a8816"
+    },
+    {
+      "source_relative": "gsm8k/train.parquet",
+      "path_under_data_root": "gsm8k/train.parquet",
+      "bytes": 3423892,
+      "rows": 7473,
+      "columns": [
+        "data_source",
+        "prompt",
+        "ability",
+        "reward_model",
+        "extra_info"
+      ],
+      "sha256": "b8cdf4f871d459b44c0e5eee254e463eb0baa43753e42a7da1f0481c4eda91e2"
+    },
+    {
+      "source_relative": "gsm8k/test.parquet",
+      "path_under_data_root": "gsm8k/test.parquet",
+      "bytes": 624611,
+      "rows": 1319,
+      "columns": [
+        "data_source",
+        "prompt",
+        "ability",
+        "reward_model",
+        "extra_info"
+      ],
+      "sha256": "1717e6f602eed241bc310d6eae89949b021d3a8c33e2ddadca1414632af3ad20"
+    },
+    {
+      "source_relative": "openr1/valid.all.parquet",
+      "path_under_data_root": "openr1/valid.all.parquet",
+      "bytes": 266345,
+      "rows": 6023,
+      "columns": [
+        "data_source",
+        "prompt",
+        "ability",
+        "reward_model",
+        "extra_info",
+        "__index_level_0__"
+      ],
+      "sha256": "92503399b914212d2e3d85839882bc1376a0111652fec0dcb722e86307e97617"
+    }
+  ],
+  "total_bytes": 12169839,
+  "local_verification": {
+    "status": "complete",
+    "files": 6,
+    "checks": ["SHA-256", "file size", "Parquet row count", "column names", "nonempty prompts", "ground-truth fields"],
+    "mathematics_evaluation_counts": {
+      "aime": 960,
+      "aime25": 960,
+      "amc": 2656,
+      "math": 500,
+      "minerva": 272,
+      "olympiad_bench": 675
+    }
+  }
+}

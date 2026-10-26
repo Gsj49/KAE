@@ -1,0 +1,280 @@
+{
+  "provenance": "Validated experiment archive, external_rollout_pools.csv",
+  "assets": [
+    {
+      "dataset": "gsm8k",
+      "step": 6,
+      "filename": "gsm8k_generation_k10_step_6_batchTRACE.parquet",
+      "bytes": 8231387,
+      "sha256": "912d1f3a5b176061a2a2e1c8d35d7156044457e32d82933ef963dbeb610d62c0",
+      "rows": 256,
+      "completions_per_prompt": 128
+    },
+    {
+      "dataset": "gsm8k",
+      "step": 7,
+      "filename": "gsm8k_generation_k10_step_7_batchTRACE.parquet",
+      "bytes": 8133394,
+      "sha256": "799442e2cfe095f7f95435d3d6061e91892b62b87119c7c04f1646e2d3b18432",
+      "rows": 256,
+      "completions_per_prompt": 128
+    },
+    {
+      "dataset": "gsm8k",
+      "step": 8,
+      "filename": "gsm8k_generation_k10_step_8_batchTRACE.parquet",
+      "bytes": 8042359,
+      "sha256": "d2c3de50d4e49973407e82361d8e4abca6deb5d8d1cd47893f335f3f41c7b5f2",
+      "rows": 256,
+      "completions_per_prompt": 128
+    },
+    {
+      "dataset": "gsm8k",
+      "step": 9,
+      "filename": "gsm8k_generation_k10_step_9_batchTRACE.parquet",
+      "bytes": 7868513,
+      "sha256": "929ac8d729e7d1062348696309e2243b53d1ac22f981ea61943abfad94cd9917",
+      "rows": 256,
+      "completions_per_prompt": 128
+    },
+    {
+      "dataset": "gsm8k",
+      "step": 10,
+      "filename": "gsm8k_generation_k10_step_10_batchTRACE.parquet",
+      "bytes": 7683819,
+      "sha256": "3cade7d346d06c21717fca2c10f2e2cb143fd5cf2a13d72db144a74316f3d7b9",
+      "rows": 256,
+      "completions_per_prompt": 128
+    },
+    {
+      "dataset": "gsm8k",
+      "step": 86,
+      "filename": "gsm8k_generation_k10_step_86_batchTRACE.parquet",
+      "bytes": 4321862,
+      "sha256": "23c44477f181be75e31f42d0fc748db847d012e80f747017e541579a9ac33df9",
+      "rows": 256,
+      "completions_per_prompt": 128
+    },
+    {
+      "dataset": "gsm8k",
+      "step": 87,
+      "filename": "gsm8k_generation_k10_step_87_batchTRACE.parquet",
+      "bytes": 4238127,
+      "sha256": "1a760443c8f3e0ea2e29a1d07a2525fb5da1a7a4ad393dbcf240a60845e85871",
+      "rows": 256,
+      "completions_per_prompt": 128
+    },
+    {
+      "dataset": "gsm8k",
+      "step": 88,
+      "filename": "gsm8k_generation_k10_step_88_batchTRACE.parquet",
+      "bytes": 4192997,
+      "sha256": "04c6cc8162b502151eb14d68e9a5b891381823bd193a23597c3a1654808a8bd3",
+      "rows": 256,
+      "completions_per_prompt": 128
+    },
+    {
+      "dataset": "gsm8k",
+      "step": 89,
+      "filename": "gsm8k_generation_k10_step_89_batchTRACE.parquet",
+      "bytes": 4168713,
+      "sha256": "5b34ad23350dbd1502590db4e93c0aaf17efb2027069819496c356e101ccf20e",
+      "rows": 256,
+      "completions_per_prompt": 128
+    },
+    {
+      "dataset": "gsm8k",
+      "step": 90,
+      "filename": "gsm8k_generation_k10_step_90_batchTRACE.parquet",
+      "bytes": 4097026,
+      "sha256": "21bdc5d61e011d7413407e5e6cae64b26e69daf42209358820d0886e25d7c5ec",
+      "rows": 256,
+      "completions_per_prompt": 128
+    },
+    {
+      "dataset": "gsm8k",
+      "step": 166,
+      "filename": "gsm8k_generation_k10_step_166_batchTRACE.parquet",
+      "bytes": 2861381,
+      "sha256": "4f59924de478aa70334bbbe903325a1a5c1b5800f0b6ab4c68b432bf90deaeb1",
+      "rows": 256,
+      "completions_per_prompt": 128
+    },
+    {
+      "dataset": "gsm8k",
+      "step": 167,
+      "filename": "gsm8k_generation_k10_step_167_batchTRACE.parquet",
+      "bytes": 2855327,
+      "sha256": "5a7eb1e74cd0358c932021bc810d6b0747b6637f09119bfe82aa483c6f0112db",
+      "rows": 256,
+      "completions_per_prompt": 128
+    },
+    {
+      "dataset": "gsm8k",
+      "step": 168,
+      "filename": "gsm8k_generation_k10_step_168_batchTRACE.parquet",
+      "bytes": 2824476,
+      "sha256": "b422ff05c47cb7da56a4617edda6f4b89fe2870f2814c8fce6aef17e94f5341b",
+      "rows": 256,
+      "completions_per_prompt": 128
+    },
+    {
+      "dataset": "gsm8k",
+      "step": 169,
+      "filename": "gsm8k_generation_k10_step_169_batchTRACE.parquet",
+      "bytes": 2819493,
+      "sha256": "a30592e3b03006a6e184402385749dac8b4dddeec497ccdde24dcee0592f77fb",
+      "rows": 256,
+      "completions_per_prompt": 128
+    },
+    {
+      "dataset": "gsm8k",
+      "step": 170,
+      "filename": "gsm8k_generation_k10_step_170_batchTRACE.parquet",
+      "bytes": 2811112,
+      "sha256": "aedc902ca34d797911b71fef681842f642fca1879e275831b0f43890fb156cf8",
+      "rows": 256,
+      "completions_per_prompt": 128
+    },
+    {
+      "dataset": "math",
+      "step": 6,
+      "filename": "math_generation_k10_step_6_batchTRACE.parquet",
+      "bytes": 25855972,
+      "sha256": "47d0c05307f289f8667d707303b5b18edef72e1c0fe2f6b0af95206755432023",
+      "rows": 256,
+      "completions_per_prompt": 128
+    },
+    {
+      "dataset": "math",
+      "step": 7,
+      "filename": "math_generation_k10_step_7_batchTRACE.parquet",
+      "bytes": 24825526,
+      "sha256": "a2eb771b32e555c40661b1f649745e5aa56a2267861a59b8c928fb25459aa3ae",
+      "rows": 256,
+      "completions_per_prompt": 128
+    },
+    {
+      "dataset": "math",
+      "step": 8,
+      "filename": "math_generation_k10_step_8_batchTRACE.parquet",
+      "bytes": 23893088,
+      "sha256": "0de29339e1c2131c8117fd3e61f936b8c80e5dcbf39b28cb8b5f3642ffa5fbe4",
+      "rows": 256,
+      "completions_per_prompt": 128
+    },
+    {
+      "dataset": "math",
+      "step": 9,
+      "filename": "math_generation_k10_step_9_batchTRACE.parquet",
+      "bytes": 23321865,
+      "sha256": "3d28337832c92067cdd0158ff086263302e57eae8a30a4051fcc812520455163",
+      "rows": 256,
+      "completions_per_prompt": 128
+    },
+    {
+      "dataset": "math",
+      "step": 10,
+      "filename": "math_generation_k10_step_10_batchTRACE.parquet",
+      "bytes": 22202610,
+      "sha256": "0ec0d477ac65ebcf660f572a680a405549f25e5cf227d5880dea1e39d822334f",
+      "rows": 256,
+      "completions_per_prompt": 128
+    },
+    {
+      "dataset": "math",
+      "step": 86,
+      "filename": "math_generation_k10_step_86_batchTRACE.parquet",
+      "bytes": 14068850,
+      "sha256": "9b49919d2ff531a3fbb9ed7f0b1f60ed1444a3e435a80181932b52f5e5a5e0c3",
+      "rows": 256,
+      "completions_per_prompt": 128
+    },
+    {
+      "dataset": "math",
+      "step": 87,
+      "filename": "math_generation_k10_step_87_batchTRACE.parquet",
+      "bytes": 14026583,
+      "sha256": "d83f9a165cdb4e12c7cdbcddf7451be56638e3089b100cbbac51068388cdba96",
+      "rows": 256,
+      "completions_per_prompt": 128
+    },
+    {
+      "dataset": "math",
+      "step": 88,
+      "filename": "math_generation_k10_step_88_batchTRACE.parquet",
+      "bytes": 14047926,
+      "sha256": "b15e2d9244b4b9232c0743a4ae93490ba323c2462e3dead01784eb170301e7bb",
+      "rows": 256,
+      "completions_per_prompt": 128
+    },
+    {
+      "dataset": "math",
+      "step": 89,
+      "filename": "math_generation_k10_step_89_batchTRACE.parquet",
+      "bytes": 13924983,
+      "sha256": "821bb03398a6aaee27c55141b554aa55a4855fd16f5b81d9377a39d6b5707292",
+      "rows": 256,
+      "completions_per_prompt": 128
+    },
+    {
+      "dataset": "math",
+      "step": 90,
+      "filename": "math_generation_k10_step_90_batchTRACE.parquet",
+      "bytes": 13927531,
+      "sha256": "54efe874e13fcfa7c2fb8c434ed9ca797af83d1862788ba743baa0c59f2aa06b",
+      "rows": 256,
+      "completions_per_prompt": 128
+    },
+    {
+      "dataset": "math",
+      "step": 166,
+      "filename": "math_generation_k10_step_166_batchTRACE.parquet",
+      "bytes": 10430806,
+      "sha256": "2327a35469480cc5ad7dec479f173149baa81ee3465b5339df5ae4560384518c",
+      "rows": 256,
+      "completions_per_prompt": 128
+    },
+    {
+      "dataset": "math",
+      "step": 167,
+      "filename": "math_generation_k10_step_167_batchTRACE.parquet",
+      "bytes": 10271316,
+      "sha256": "165e28e2bde176622f547febc9caceb028ad335f1ba4fc836df109dd42b3da22",
+      "rows": 256,
+      "completions_per_prompt": 128
+    },
+    {
+      "dataset": "math",
+      "step": 168,
+      "filename": "math_generation_k10_step_168_batchTRACE.parquet",
+      "bytes": 10145870,
+      "sha256": "d4b1af04ab9bd7a3e227ee347f190585e52db27306e32aee80b5905e6d21e998",
+      "rows": 256,
+      "completions_per_prompt": 128
+    },
+    {
+      "dataset": "math",
+      "step": 169,
+      "filename": "math_generation_k10_step_169_batchTRACE.parquet",
+      "bytes": 10029047,
+      "sha256": "5cb360dc1037d7e19a08104e4116359c22937524286271810cecfd49ba194196",
+      "rows": 256,
+      "completions_per_prompt": 128
+    },
+    {
+      "dataset": "math",
+      "step": 170,
+      "filename": "math_generation_k10_step_170_batchTRACE.parquet",
+      "bytes": 9995119,
+      "sha256": "2c63d6c03b30c49e0813927edd8aff4cbe3b76c97badf095d096d685960ad96c",
+      "rows": 256,
+      "completions_per_prompt": 128
+    }
+  ],
+  "mathematics_evaluation": {
+    "filename": "openr1/valid.all.parquet",
+    "rows": 6023,
+    "sha256": "92503399b914212d2e3d85839882bc1376a0111652fec0dcb722e86307e97617"
+  }
+}

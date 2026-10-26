@@ -1,0 +1,30 @@
+{
+  "one_shot": {
+    "model": "Qwen/Qwen2.5-Math-1.5B",
+    "copies": 128,
+    "group_size": 8,
+    "steps": 100,
+    "gpus": 4,
+    "prompt_length": 1024,
+    "response_length": 2048,
+    "memory_utilization": 0.85,
+    "kae_ih": 5.0,
+    "loss_agg_mode": "seq-mean-token-mean",
+    "norm_adv_by_std_in_grpo": false,
+    "test_freq": 10,
+    "save_freq": 100
+  },
+  "single_stream": {
+    "train_batch_size": 1024,
+    "group_size": 1,
+    "steps": 400,
+    "repeat_count": 10,
+    "kae_ih": 5.0,
+    "test_freq": 5,
+    "save_freq": 50,
+    "datasets": {
+      "gsm8k": {"model": "Qwen/Qwen2.5-1.5B-Instruct", "gpus": 1, "prompt_length": 512, "response_length": 512, "memory_utilization": 0.75, "val_before_train": true},
+      "math": {"model": "Qwen/Qwen2.5-Math-1.5B", "gpus": 4, "prompt_length": 1024, "response_length": 2048, "memory_utilization": 0.7, "val_before_train": false}
+    }
+  }
+}

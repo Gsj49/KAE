@@ -1,0 +1,14 @@
+# Keep the layout and configuration in Git; distribute data files separately.
+*
+!.gitignore
+!README.md
+!paths.json
+!check.py
+!*_assets.json
+!*/
+!**/.gitkeep
+
+# Small numeric inputs for the two appendix summary tables.
+!/mc_error/*.csv
+!/computing_cost/*.csv
+!/computing_cost/*.csv.gz

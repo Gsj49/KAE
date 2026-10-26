@@ -1,0 +1,52 @@
+{
+  "schema": 1,
+  "dataset": "gsm8k",
+  "step": 170,
+  "prompts": 256,
+  "group_size": 8,
+  "repeats": 50,
+  "seed": 0,
+  "sampling_with_replacement": true,
+  "legacy_sampling_shards": 16,
+  "baseline": "global_batch_completion_leave_one_out",
+  "global_completion_count": 2048,
+  "plan_sha256": "31dd2f1c263029d8c3366f97769eec9d07309732346325fac086bc3d7eae1092",
+  "inputs": [
+    {
+      "step": 166,
+      "filename": "gsm8k_generation_k10_step_166_batchTRACE.parquet",
+      "sha256": "4f59924de478aa70334bbbe903325a1a5c1b5800f0b6ab4c68b432bf90deaeb1",
+      "bytes": 2861381
+    },
+    {
+      "step": 167,
+      "filename": "gsm8k_generation_k10_step_167_batchTRACE.parquet",
+      "sha256": "5a7eb1e74cd0358c932021bc810d6b0747b6637f09119bfe82aa483c6f0112db",
+      "bytes": 2855327
+    },
+    {
+      "step": 168,
+      "filename": "gsm8k_generation_k10_step_168_batchTRACE.parquet",
+      "sha256": "b422ff05c47cb7da56a4617edda6f4b89fe2870f2814c8fce6aef17e94f5341b",
+      "bytes": 2824476
+    },
+    {
+      "step": 169,
+      "filename": "gsm8k_generation_k10_step_169_batchTRACE.parquet",
+      "sha256": "a30592e3b03006a6e184402385749dac8b4dddeec497ccdde24dcee0592f77fb",
+      "bytes": 2819493
+    },
+    {
+      "step": 170,
+      "filename": "gsm8k_generation_k10_step_170_batchTRACE.parquet",
+      "sha256": "aedc902ca34d797911b71fef681842f642fca1879e275831b0f43890fb156cf8",
+      "bytes": 2811112
+    }
+  ],
+  "historical_details": {
+    "sha256": "25ba7dace57c4a2d926365d3eae3ea79804ba2d4bd66bb8c8f3bb448da175dce",
+    "uid_order_matches": true
+  },
+  "builder_sha256": "81b5ff5ef5ad00f29429199bfd15b18593cfacef9c832476348730007aa37290",
+  "numpy_version": "2.2.5"
+}

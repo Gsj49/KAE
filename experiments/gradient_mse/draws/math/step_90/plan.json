@@ -1,0 +1,52 @@
+{
+  "schema": 1,
+  "dataset": "math",
+  "step": 90,
+  "prompts": 256,
+  "group_size": 8,
+  "repeats": 50,
+  "seed": 0,
+  "sampling_with_replacement": true,
+  "legacy_sampling_shards": 16,
+  "baseline": "global_batch_completion_leave_one_out",
+  "global_completion_count": 2048,
+  "plan_sha256": "a2ad00b644bc566c892306b39281e6a816466505c38a1d512341287d4c2fe493",
+  "inputs": [
+    {
+      "step": 86,
+      "filename": "math_generation_k10_step_86_batchTRACE.parquet",
+      "sha256": "9b49919d2ff531a3fbb9ed7f0b1f60ed1444a3e435a80181932b52f5e5a5e0c3",
+      "bytes": 14068850
+    },
+    {
+      "step": 87,
+      "filename": "math_generation_k10_step_87_batchTRACE.parquet",
+      "sha256": "d83f9a165cdb4e12c7cdbcddf7451be56638e3089b100cbbac51068388cdba96",
+      "bytes": 14026583
+    },
+    {
+      "step": 88,
+      "filename": "math_generation_k10_step_88_batchTRACE.parquet",
+      "sha256": "b15e2d9244b4b9232c0743a4ae93490ba323c2462e3dead01784eb170301e7bb",
+      "bytes": 14047926
+    },
+    {
+      "step": 89,
+      "filename": "math_generation_k10_step_89_batchTRACE.parquet",
+      "sha256": "821bb03398a6aaee27c55141b554aa55a4855fd16f5b81d9377a39d6b5707292",
+      "bytes": 13924983
+    },
+    {
+      "step": 90,
+      "filename": "math_generation_k10_step_90_batchTRACE.parquet",
+      "sha256": "54efe874e13fcfa7c2fb8c434ed9ca797af83d1862788ba743baa0c59f2aa06b",
+      "bytes": 13927531
+    }
+  ],
+  "historical_details": {
+    "sha256": "ba7e641aaabbc8f3658c9801df125c056c735e556754c7c473c78f8b68aec564",
+    "uid_order_matches": true
+  },
+  "builder_sha256": "81b5ff5ef5ad00f29429199bfd15b18593cfacef9c832476348730007aa37290",
+  "numpy_version": "2.2.5"
+}

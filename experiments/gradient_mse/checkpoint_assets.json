@@ -1,0 +1,504 @@
+{
+  "schema": 1,
+  "repo_id": "Gsj49/verl_reasoning_checkpoints",
+  "revision": "0bd75af00032d23191a869d6a7dcf64ac923651e",
+  "public_at_verification": true,
+  "verified_at_utc": "2026-10-25T16:25:44.408830+00:00",
+  "verification": "Remote file metadata and small-file SHA matched the locally verified model files; see per-file verification fields.",
+  "checkpoint_count": 6,
+  "total_bytes": 56451826300,
+  "checkpoints": [
+    {
+      "dataset": "gsm8k",
+      "step": 10,
+      "file_count": 10,
+      "bytes": 3570095303,
+      "repo_folder": "JASA-REVISION-ASSUMPTION6/assump6-qwen2.5-1.5b-gsm8k-kae-k10-seed1/global_step_10",
+      "status": "match",
+      "files": [
+        {
+          "name": "added_tokens.json",
+          "bytes": 605,
+          "sha256": "58b54bbe36fc752f79a24a271ef66a0a0830054b4dfad94bde757d851968060b",
+          "verification": "SHA-256 of downloaded non-LFS file"
+        },
+        {
+          "name": "chat_template.jinja",
+          "bytes": 2507,
+          "sha256": "cd8e9439f0570856fd70470bf8889ebd8b5d1107207f67a5efb46e342330527f",
+          "verification": "SHA-256 of downloaded non-LFS file"
+        },
+        {
+          "name": "config.json",
+          "bytes": 1316,
+          "sha256": "123ef748bf0a69412a50bb05c6fe5488cceec9f7f3e49e45657d37cd290cc217",
+          "verification": "SHA-256 of downloaded non-LFS file"
+        },
+        {
+          "name": "generation_config.json",
+          "bytes": 242,
+          "sha256": "d741ec9f7410b447ac32cc922a777242e99b4372f1b9e836fec2d4bbaf4b5562",
+          "verification": "SHA-256 of downloaded non-LFS file"
+        },
+        {
+          "name": "merges.txt",
+          "bytes": 1671853,
+          "sha256": "8831e4f1a044471340f7c0a83d7bd71306a5b867e95fd870f74d0c5308a904d5",
+          "verification": "SHA-256 of downloaded non-LFS file"
+        },
+        {
+          "name": "model.safetensors",
+          "bytes": 3554214752,
+          "sha256": "a604959232f12e37ecad31395e6e33414c3cb8ff086c93ea45b896f432688cf7",
+          "verification": "HF LFS SHA-256 metadata"
+        },
+        {
+          "name": "special_tokens_map.json",
+          "bytes": 613,
+          "sha256": "76862e765266b85aa9459767e33cbaf13970f327a0e88d1c65846c2ddd3a1ecd",
+          "verification": "SHA-256 of downloaded non-LFS file"
+        },
+        {
+          "name": "tokenizer.json",
+          "bytes": 11421896,
+          "sha256": "9c5ae00e602b8860cbd784ba82a8aa14e8feecec692e7076590d014d7b7fdafa",
+          "verification": "HF LFS SHA-256 metadata"
+        },
+        {
+          "name": "tokenizer_config.json",
+          "bytes": 4686,
+          "sha256": "0a04a9d7d4a62b28482bdfe726c122756de85714fb64166ace92ae75b8f57614",
+          "verification": "SHA-256 of downloaded non-LFS file"
+        },
+        {
+          "name": "vocab.json",
+          "bytes": 2776833,
+          "sha256": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910",
+          "verification": "SHA-256 of downloaded non-LFS file"
+        }
+      ]
+    },
+    {
+      "dataset": "gsm8k",
+      "step": 90,
+      "file_count": 10,
+      "bytes": 3570095303,
+      "repo_folder": "JASA-REVISION-ASSUMPTION6/assump6-qwen2.5-1.5b-gsm8k-kae-k10-seed1/global_step_90",
+      "status": "match",
+      "files": [
+        {
+          "name": "added_tokens.json",
+          "bytes": 605,
+          "sha256": "58b54bbe36fc752f79a24a271ef66a0a0830054b4dfad94bde757d851968060b",
+          "verification": "SHA-256 of downloaded non-LFS file"
+        },
+        {
+          "name": "chat_template.jinja",
+          "bytes": 2507,
+          "sha256": "cd8e9439f0570856fd70470bf8889ebd8b5d1107207f67a5efb46e342330527f",
+          "verification": "SHA-256 of downloaded non-LFS file"
+        },
+        {
+          "name": "config.json",
+          "bytes": 1316,
+          "sha256": "123ef748bf0a69412a50bb05c6fe5488cceec9f7f3e49e45657d37cd290cc217",
+          "verification": "SHA-256 of downloaded non-LFS file"
+        },
+        {
+          "name": "generation_config.json",
+          "bytes": 242,
+          "sha256": "d741ec9f7410b447ac32cc922a777242e99b4372f1b9e836fec2d4bbaf4b5562",
+          "verification": "SHA-256 of downloaded non-LFS file"
+        },
+        {
+          "name": "merges.txt",
+          "bytes": 1671853,
+          "sha256": "8831e4f1a044471340f7c0a83d7bd71306a5b867e95fd870f74d0c5308a904d5",
+          "verification": "SHA-256 of downloaded non-LFS file"
+        },
+        {
+          "name": "model.safetensors",
+          "bytes": 3554214752,
+          "sha256": "dc4d9a1b4a97df8f61652f977cd3623558fbdcd4ffbdef91f00f86e328353343",
+          "verification": "HF LFS SHA-256 metadata"
+        },
+        {
+          "name": "special_tokens_map.json",
+          "bytes": 613,
+          "sha256": "76862e765266b85aa9459767e33cbaf13970f327a0e88d1c65846c2ddd3a1ecd",
+          "verification": "SHA-256 of downloaded non-LFS file"
+        },
+        {
+          "name": "tokenizer.json",
+          "bytes": 11421896,
+          "sha256": "9c5ae00e602b8860cbd784ba82a8aa14e8feecec692e7076590d014d7b7fdafa",
+          "verification": "HF LFS SHA-256 metadata"
+        },
+        {
+          "name": "tokenizer_config.json",
+          "bytes": 4686,
+          "sha256": "0a04a9d7d4a62b28482bdfe726c122756de85714fb64166ace92ae75b8f57614",
+          "verification": "SHA-256 of downloaded non-LFS file"
+        },
+        {
+          "name": "vocab.json",
+          "bytes": 2776833,
+          "sha256": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910",
+          "verification": "SHA-256 of downloaded non-LFS file"
+        }
+      ]
+    },
+    {
+      "dataset": "gsm8k",
+      "step": 170,
+      "file_count": 10,
+      "bytes": 3570095303,
+      "repo_folder": "JASA-REVISION-ASSUMPTION6/assump6-qwen2.5-1.5b-gsm8k-kae-k10-seed1/global_step_170",
+      "status": "match",
+      "files": [
+        {
+          "name": "added_tokens.json",
+          "bytes": 605,
+          "sha256": "58b54bbe36fc752f79a24a271ef66a0a0830054b4dfad94bde757d851968060b",
+          "verification": "SHA-256 of downloaded non-LFS file"
+        },
+        {
+          "name": "chat_template.jinja",
+          "bytes": 2507,
+          "sha256": "cd8e9439f0570856fd70470bf8889ebd8b5d1107207f67a5efb46e342330527f",
+          "verification": "SHA-256 of downloaded non-LFS file"
+        },
+        {
+          "name": "config.json",
+          "bytes": 1316,
+          "sha256": "123ef748bf0a69412a50bb05c6fe5488cceec9f7f3e49e45657d37cd290cc217",
+          "verification": "SHA-256 of downloaded non-LFS file"
+        },
+        {
+          "name": "generation_config.json",
+          "bytes": 242,
+          "sha256": "d741ec9f7410b447ac32cc922a777242e99b4372f1b9e836fec2d4bbaf4b5562",
+          "verification": "SHA-256 of downloaded non-LFS file"
+        },
+        {
+          "name": "merges.txt",
+          "bytes": 1671853,
+          "sha256": "8831e4f1a044471340f7c0a83d7bd71306a5b867e95fd870f74d0c5308a904d5",
+          "verification": "SHA-256 of downloaded non-LFS file"
+        },
+        {
+          "name": "model.safetensors",
+          "bytes": 3554214752,
+          "sha256": "2622f42c4ae7578d34b22f3f2fce823d0034efca8ab6669dd28c03d43e4a5b11",
+          "verification": "HF LFS SHA-256 metadata"
+        },
+        {
+          "name": "special_tokens_map.json",
+          "bytes": 613,
+          "sha256": "76862e765266b85aa9459767e33cbaf13970f327a0e88d1c65846c2ddd3a1ecd",
+          "verification": "SHA-256 of downloaded non-LFS file"
+        },
+        {
+          "name": "tokenizer.json",
+          "bytes": 11421896,
+          "sha256": "9c5ae00e602b8860cbd784ba82a8aa14e8feecec692e7076590d014d7b7fdafa",
+          "verification": "HF LFS SHA-256 metadata"
+        },
+        {
+          "name": "tokenizer_config.json",
+          "bytes": 4686,
+          "sha256": "0a04a9d7d4a62b28482bdfe726c122756de85714fb64166ace92ae75b8f57614",
+          "verification": "SHA-256 of downloaded non-LFS file"
+        },
+        {
+          "name": "vocab.json",
+          "bytes": 2776833,
+          "sha256": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910",
+          "verification": "SHA-256 of downloaded non-LFS file"
+        }
+      ]
+    },
+    {
+      "dataset": "math",
+      "step": 10,
+      "file_count": 14,
+      "bytes": 15247180141,
+      "repo_folder": "JASA-REVISION-ASSUMPTION6/assump6-qwen2.5-math-7b-math-kae-k10-seed1/global_step_10",
+      "status": "match",
+      "files": [
+        {
+          "name": "added_tokens.json",
+          "bytes": 605,
+          "sha256": "58b54bbe36fc752f79a24a271ef66a0a0830054b4dfad94bde757d851968060b",
+          "verification": "SHA-256 of downloaded non-LFS file"
+        },
+        {
+          "name": "chat_template.jinja",
+          "bytes": 2513,
+          "sha256": "c564d12c9977b8942423753b0c409a11f50142508ced170e9fe1c2f5b803cf70",
+          "verification": "SHA-256 of downloaded non-LFS file"
+        },
+        {
+          "name": "config.json",
+          "bytes": 1335,
+          "sha256": "7d75a339f87186aa35d9821a0e101dbc943b97e56e6da16ce1df0b6500d1dc14",
+          "verification": "SHA-256 of downloaded non-LFS file"
+        },
+        {
+          "name": "generation_config.json",
+          "bytes": 117,
+          "sha256": "57938aae470c22ab0775ea907c40c1925ccf273c607c8035f3b74c806e9d3f4c",
+          "verification": "SHA-256 of downloaded non-LFS file"
+        },
+        {
+          "name": "merges.txt",
+          "bytes": 1671853,
+          "sha256": "8831e4f1a044471340f7c0a83d7bd71306a5b867e95fd870f74d0c5308a904d5",
+          "verification": "SHA-256 of downloaded non-LFS file"
+        },
+        {
+          "name": "model-00001-of-00004.safetensors",
+          "bytes": 4973085392,
+          "sha256": "4f6bbf1ec7f498d3731865fcaac3115016b2dcd4e65ff8c051b1a44921ca855f",
+          "verification": "HF LFS SHA-256 metadata"
+        },
+        {
+          "name": "model-00002-of-00004.safetensors",
+          "bytes": 4991425752,
+          "sha256": "8b23bb38ce9c9f00fa7c17178e351e7636dd21e742ac8f2a74608c0faa30d088",
+          "verification": "HF LFS SHA-256 metadata"
+        },
+        {
+          "name": "model-00003-of-00004.safetensors",
+          "bytes": 4940110768,
+          "sha256": "2aa3a7e2a14d82553b126578a3b4abae9026a2948c1553f8016554e7ee460f02",
+          "verification": "HF LFS SHA-256 metadata"
+        },
+        {
+          "name": "model-00004-of-00004.safetensors",
+          "bytes": 326649984,
+          "sha256": "10117fd981c089c5f868580451f1d293541ead77ceb3ed3d95fcf8438eec46a2",
+          "verification": "HF LFS SHA-256 metadata"
+        },
+        {
+          "name": "model.safetensors.index.json",
+          "bytes": 27788,
+          "sha256": "5e75de1497ce8d035426c65774f68f8d5240498dc70a8f8000af4db74af2e2e1",
+          "verification": "SHA-256 of downloaded non-LFS file"
+        },
+        {
+          "name": "special_tokens_map.json",
+          "bytes": 616,
+          "sha256": "6676f091c8bc4d1b50146427cfde92073402866b87b6e39223227931b70083e9",
+          "verification": "SHA-256 of downloaded non-LFS file"
+        },
+        {
+          "name": "tokenizer.json",
+          "bytes": 11421896,
+          "sha256": "9c5ae00e602b8860cbd784ba82a8aa14e8feecec692e7076590d014d7b7fdafa",
+          "verification": "HF LFS SHA-256 metadata"
+        },
+        {
+          "name": "tokenizer_config.json",
+          "bytes": 4689,
+          "sha256": "60f6e7bc948cedd377a20f01d022ef664d026fbc93d72e0a9bdac233f8632181",
+          "verification": "SHA-256 of downloaded non-LFS file"
+        },
+        {
+          "name": "vocab.json",
+          "bytes": 2776833,
+          "sha256": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910",
+          "verification": "SHA-256 of downloaded non-LFS file"
+        }
+      ]
+    },
+    {
+      "dataset": "math",
+      "step": 90,
+      "file_count": 14,
+      "bytes": 15247180125,
+      "repo_folder": "JASA-REVISION-ASSUMPTION6/assump6-qwen2.5-math-7b-math-kae-k10-seed1/global_step_90",
+      "status": "match",
+      "files": [
+        {
+          "name": "added_tokens.json",
+          "bytes": 605,
+          "sha256": "58b54bbe36fc752f79a24a271ef66a0a0830054b4dfad94bde757d851968060b",
+          "verification": "SHA-256 of downloaded non-LFS file"
+        },
+        {
+          "name": "chat_template.jinja",
+          "bytes": 2513,
+          "sha256": "c564d12c9977b8942423753b0c409a11f50142508ced170e9fe1c2f5b803cf70",
+          "verification": "SHA-256 of downloaded non-LFS file"
+        },
+        {
+          "name": "config.json",
+          "bytes": 1335,
+          "sha256": "7d75a339f87186aa35d9821a0e101dbc943b97e56e6da16ce1df0b6500d1dc14",
+          "verification": "SHA-256 of downloaded non-LFS file"
+        },
+        {
+          "name": "generation_config.json",
+          "bytes": 117,
+          "sha256": "57938aae470c22ab0775ea907c40c1925ccf273c607c8035f3b74c806e9d3f4c",
+          "verification": "SHA-256 of downloaded non-LFS file"
+        },
+        {
+          "name": "merges.txt",
+          "bytes": 1671853,
+          "sha256": "8831e4f1a044471340f7c0a83d7bd71306a5b867e95fd870f74d0c5308a904d5",
+          "verification": "SHA-256 of downloaded non-LFS file"
+        },
+        {
+          "name": "model-00001-of-00004.safetensors",
+          "bytes": 4906969928,
+          "sha256": "812af32b2061235654f1f98aed847cc81bff63e3b153041293b7c8e8d551a4c1",
+          "verification": "HF LFS SHA-256 metadata"
+        },
+        {
+          "name": "model-00002-of-00004.safetensors",
+          "bytes": 4896044224,
+          "sha256": "e82d5268f30d187285c800892c411c5c71a250e845c1b64a537d6f0e04523ea7",
+          "verification": "HF LFS SHA-256 metadata"
+        },
+        {
+          "name": "model-00003-of-00004.safetensors",
+          "bytes": 4940096560,
+          "sha256": "b9752fa69d015107f8067e384b12b87f04f941e6dcea55889fbcb05630bc5e3e",
+          "verification": "HF LFS SHA-256 metadata"
+        },
+        {
+          "name": "model-00004-of-00004.safetensors",
+          "bytes": 488161168,
+          "sha256": "a42ea7d94e943e8e81489ff37b44eb2d1c91a5dbb5eeea839a21147d00d9e665",
+          "verification": "HF LFS SHA-256 metadata"
+        },
+        {
+          "name": "model.safetensors.index.json",
+          "bytes": 27788,
+          "sha256": "6352f68cd59ca4beb6ad2bac44abd8c1980af459a4f9280d6abab7d824358ead",
+          "verification": "SHA-256 of downloaded non-LFS file"
+        },
+        {
+          "name": "special_tokens_map.json",
+          "bytes": 616,
+          "sha256": "6676f091c8bc4d1b50146427cfde92073402866b87b6e39223227931b70083e9",
+          "verification": "SHA-256 of downloaded non-LFS file"
+        },
+        {
+          "name": "tokenizer.json",
+          "bytes": 11421896,
+          "sha256": "9c5ae00e602b8860cbd784ba82a8aa14e8feecec692e7076590d014d7b7fdafa",
+          "verification": "HF LFS SHA-256 metadata"
+        },
+        {
+          "name": "tokenizer_config.json",
+          "bytes": 4689,
+          "sha256": "60f6e7bc948cedd377a20f01d022ef664d026fbc93d72e0a9bdac233f8632181",
+          "verification": "SHA-256 of downloaded non-LFS file"
+        },
+        {
+          "name": "vocab.json",
+          "bytes": 2776833,
+          "sha256": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910",
+          "verification": "SHA-256 of downloaded non-LFS file"
+        }
+      ]
+    },
+    {
+      "dataset": "math",
+      "step": 170,
+      "file_count": 14,
+      "bytes": 15247180125,
+      "repo_folder": "JASA-REVISION-ASSUMPTION6/assump6-qwen2.5-math-7b-math-kae-k10-seed1/global_step_170",
+      "status": "match",
+      "files": [
+        {
+          "name": "added_tokens.json",
+          "bytes": 605,
+          "sha256": "58b54bbe36fc752f79a24a271ef66a0a0830054b4dfad94bde757d851968060b",
+          "verification": "SHA-256 of downloaded non-LFS file"
+        },
+        {
+          "name": "chat_template.jinja",
+          "bytes": 2513,
+          "sha256": "c564d12c9977b8942423753b0c409a11f50142508ced170e9fe1c2f5b803cf70",
+          "verification": "SHA-256 of downloaded non-LFS file"
+        },
+        {
+          "name": "config.json",
+          "bytes": 1335,
+          "sha256": "7d75a339f87186aa35d9821a0e101dbc943b97e56e6da16ce1df0b6500d1dc14",
+          "verification": "SHA-256 of downloaded non-LFS file"
+        },
+        {
+          "name": "generation_config.json",
+          "bytes": 117,
+          "sha256": "57938aae470c22ab0775ea907c40c1925ccf273c607c8035f3b74c806e9d3f4c",
+          "verification": "SHA-256 of downloaded non-LFS file"
+        },
+        {
+          "name": "merges.txt",
+          "bytes": 1671853,
+          "sha256": "8831e4f1a044471340f7c0a83d7bd71306a5b867e95fd870f74d0c5308a904d5",
+          "verification": "SHA-256 of downloaded non-LFS file"
+        },
+        {
+          "name": "model-00001-of-00004.safetensors",
+          "bytes": 4907126296,
+          "sha256": "7412fa793b183a936915b8c1227053e97313b9f1e7e2dd6b1477c4aa724acadf",
+          "verification": "HF LFS SHA-256 metadata"
+        },
+        {
+          "name": "model-00002-of-00004.safetensors",
+          "bytes": 4925331376,
+          "sha256": "f3749a5e8a62e6e0cc2d58c0853f98e4b0f9adae09b586a1363899a7c068b154",
+          "verification": "HF LFS SHA-256 metadata"
+        },
+        {
+          "name": "model-00003-of-00004.safetensors",
+          "bytes": 4143660968,
+          "sha256": "23d78f75dc8e1d63ccde43c5605d24aa81db8bb94030682570fb65494c7d7153",
+          "verification": "HF LFS SHA-256 metadata"
+        },
+        {
+          "name": "model-00004-of-00004.safetensors",
+          "bytes": 1255153240,
+          "sha256": "f3c8e46c0b5bfa543cc7a02bfc6a2aeffede20ee6f72cca522f52761a2b14e83",
+          "verification": "HF LFS SHA-256 metadata"
+        },
+        {
+          "name": "model.safetensors.index.json",
+          "bytes": 27788,
+          "sha256": "03e48dded652c23e8f6038bf7fa423843361cccea6b83990d7f4dba8e4932ca2",
+          "verification": "SHA-256 of downloaded non-LFS file"
+        },
+        {
+          "name": "special_tokens_map.json",
+          "bytes": 616,
+          "sha256": "6676f091c8bc4d1b50146427cfde92073402866b87b6e39223227931b70083e9",
+          "verification": "SHA-256 of downloaded non-LFS file"
+        },
+        {
+          "name": "tokenizer.json",
+          "bytes": 11421896,
+          "sha256": "9c5ae00e602b8860cbd784ba82a8aa14e8feecec692e7076590d014d7b7fdafa",
+          "verification": "HF LFS SHA-256 metadata"
+        },
+        {
+          "name": "tokenizer_config.json",
+          "bytes": 4689,
+          "sha256": "60f6e7bc948cedd377a20f01d022ef664d026fbc93d72e0a9bdac233f8632181",
+          "verification": "SHA-256 of downloaded non-LFS file"
+        },
+        {
+          "name": "vocab.json",
+          "bytes": 2776833,
+          "sha256": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910",
+          "verification": "SHA-256 of downloaded non-LFS file"
+        }
+      ]
+    }
+  ]
+}

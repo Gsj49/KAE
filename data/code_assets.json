@@ -1,0 +1,17 @@
+{
+  "description": "Preprocessed files used for the paper's code benchmarks; data are distributed separately.",
+  "assets": [
+    {
+      "benchmark": "humaneval_plus",
+      "path_under_data_root": "humaneval_plus/test.parquet",
+      "rows": 164,
+      "sha256": "3856b3b9b998d18c8937210840ee2eb33db1769144094a2a6dfca01a8bd82b63"
+    },
+    {
+      "benchmark": "mbpp_plus",
+      "path_under_data_root": "mbpp_plus/test.parquet",
+      "rows": 378,
+      "sha256": "7775b275a71e69b928239a459da4824c58d967ddabca33b6dbc82c5271762579"
+    }
+  ]
+}

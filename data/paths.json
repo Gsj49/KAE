@@ -1,0 +1,37 @@
+{
+  "training": {
+    "dapo": "dapo/train.parquet",
+    "math": "math/train_level_ge3.parquet",
+    "gsm8k": "gsm8k/train.parquet"
+  },
+  "validation": {
+    "policy": {
+      "dapo": "openr1/valid.all.parquet",
+      "math": "openr1/valid.all.parquet",
+      "gsm8k": "gsm8k/test.parquet"
+    },
+    "estimation": {
+      "math": "math/test.parquet",
+      "gsm8k": "gsm8k/test.parquet"
+    },
+    "single_stream": {
+      "math": "math/test.parquet",
+      "gsm8k": "gsm8k/test.parquet"
+    },
+    "one_shot": "math/test.parquet"
+  },
+  "one_shot": {
+    "source": "math/train_level_ge3.parquet",
+    "prepared": "oneshot/question_128copies.parquet"
+  },
+  "math_evaluation": "openr1/valid.all.parquet",
+  "code": "code",
+  "rollouts": {
+    "gsm8k": "rollouts/gsm8k",
+    "math": "rollouts/math"
+  },
+  "traces": {
+    "gsm8k": "traces/gsm8k_prompt_trace.jsonl",
+    "math": "traces/math_prompt_trace.jsonl"
+  }
+}
